@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAB8280D204EA233001D912A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB8280C204EA233001D912A /* main.cpp */; };
+		FAB82815204EAA67001D912A /* libopencv_core.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB82814204EAA67001D912A /* libopencv_core.dylib */; };
+		FAB82817204EAA8C001D912A /* libopencv_highgui.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB82816204EAA8B001D912A /* libopencv_highgui.dylib */; };
+		FAB82819204EAA9F001D912A /* libopencv_imgcodecs.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB82818204EAA9F001D912A /* libopencv_imgcodecs.dylib */; };
+		FAB8281B204EAAAF001D912A /* libopencv_imgproc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB8281A204EAAAF001D912A /* libopencv_imgproc.dylib */; };
+		FAB8281D204EAAD4001D912A /* libopencv_features2d.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB8281C204EAAD3001D912A /* libopencv_features2d.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FAB82807204EA233001D912A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FAB82809204EA233001D912A /* opencp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = opencp; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB8280C204EA233001D912A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FAB82814204EAA67001D912A /* libopencv_core.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.dylib; path = ../../../../../../usr/local/Cellar/opencv/3.4.1_1/lib/libopencv_core.dylib; sourceTree = "<group>"; };
+		FAB82816204EAA8B001D912A /* libopencv_highgui.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.dylib; path = ../../../../../../usr/local/Cellar/opencv/3.4.1_1/lib/libopencv_highgui.dylib; sourceTree = "<group>"; };
+		FAB82818204EAA9F001D912A /* libopencv_imgcodecs.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgcodecs.dylib; path = ../../../../../../usr/local/Cellar/opencv/3.4.1_1/lib/libopencv_imgcodecs.dylib; sourceTree = "<group>"; };
+		FAB8281A204EAAAF001D912A /* libopencv_imgproc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.dylib; path = ../../../../../../usr/local/Cellar/opencv/3.4.1_1/lib/libopencv_imgproc.dylib; sourceTree = "<group>"; };
+		FAB8281C204EAAD3001D912A /* libopencv_features2d.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_features2d.dylib; path = ../../../../../../usr/local/Cellar/opencv/3.4.1_1/lib/libopencv_features2d.dylib; sourceTree = "<group>"; };
+		FAB8281E204EAFD7001D912A /* haruna.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = haruna.jpg; path = opencp/haruna.jpg; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAB82806204EA233001D912A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB82815204EAA67001D912A /* libopencv_core.dylib in Frameworks */,
+				FAB82817204EAA8C001D912A /* libopencv_highgui.dylib in Frameworks */,
+				FAB82819204EAA9F001D912A /* libopencv_imgcodecs.dylib in Frameworks */,
+				FAB8281B204EAAAF001D912A /* libopencv_imgproc.dylib in Frameworks */,
+				FAB8281D204EAAD4001D912A /* libopencv_features2d.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAB82800204EA233001D912A = {
+			isa = PBXGroup;
+			children = (
+				FAB8280B204EA233001D912A /* opencp */,
+				FAB8280A204EA233001D912A /* Products */,
+				FAB82813204EAA67001D912A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FAB8280A204EA233001D912A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAB82809204EA233001D912A /* opencp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAB8280B204EA233001D912A /* opencp */ = {
+			isa = PBXGroup;
+			children = (
+				FAB8281E204EAFD7001D912A /* haruna.jpg */,
+				FAB8280C204EA233001D912A /* main.cpp */,
+			);
+			path = opencp;
+			sourceTree = "<group>";
+		};
+		FAB82813204EAA67001D912A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAB8281C204EAAD3001D912A /* libopencv_features2d.dylib */,
+				FAB8281A204EAAAF001D912A /* libopencv_imgproc.dylib */,
+				FAB82818204EAA9F001D912A /* libopencv_imgcodecs.dylib */,
+				FAB82816204EAA8B001D912A /* libopencv_highgui.dylib */,
+				FAB82814204EAA67001D912A /* libopencv_core.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAB82808204EA233001D912A /* opencp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB82810204EA233001D912A /* Build configuration list for PBXNativeTarget "opencp" */;
+			buildPhases = (
+				FAB82805204EA233001D912A /* Sources */,
+				FAB82806204EA233001D912A /* Frameworks */,
+				FAB82807204EA233001D912A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = opencp;
+			productName = opencp;
+			productReference = FAB82809204EA233001D912A /* opencp */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAB82801204EA233001D912A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "sample-user";
+				TargetAttributes = {
+					FAB82808204EA233001D912A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FAB82804204EA233001D912A /* Build configuration list for PBXProject "opencp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAB82800204EA233001D912A;
+			productRefGroup = FAB8280A204EA233001D912A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAB82808204EA233001D912A /* opencp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAB82805204EA233001D912A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB8280D204EA233001D912A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAB8280E204EA233001D912A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FAB8280F204EA233001D912A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FAB82811204EA233001D912A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_HEADERS_RUN_UNIFDEF = NO;
+				HEADER_SEARCH_PATHS = "/usr/local/Cellar/opencv/**";
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/opencv/3.4.1_1/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAB82812204EA233001D912A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_HEADERS_RUN_UNIFDEF = NO;
+				HEADER_SEARCH_PATHS = "/usr/local/Cellar/opencv/**";
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/opencv/3.4.1_1/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAB82804204EA233001D912A /* Build configuration list for PBXProject "opencp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB8280E204EA233001D912A /* Debug */,
+				FAB8280F204EA233001D912A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB82810204EA233001D912A /* Build configuration list for PBXNativeTarget "opencp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB82811204EA233001D912A /* Debug */,
+				FAB82812204EA233001D912A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAB82801204EA233001D912A /* Project object */;
+}
