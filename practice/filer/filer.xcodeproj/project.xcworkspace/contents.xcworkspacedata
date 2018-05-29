@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../../../../../vif.csv">
+   </FileRef>
+   <FileRef
       location = "self:filer.xcodeproj">
    </FileRef>
 </Workspace>
